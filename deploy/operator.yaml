@@ -16,10 +16,10 @@ spec:
       containers:
         - name: whpa
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: whpa/controller:v0.0.1
           command:
           - whpa
-          imagePullPolicy: Always
+          imagePullPolicy: IfNotPresent
           env:
             - name: WATCH_NAMESPACE
               valueFrom:

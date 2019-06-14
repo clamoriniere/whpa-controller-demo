@@ -1,0 +1,7 @@
+apiVersion: whpa.datadoghq.com/v1alpha1
+kind: WatermarkHorizontalPodAutoscaler
+metadata:
+  name: example-watermarkhorizontalpodautoscaler
+spec:
+  # Add fields here
+  replicas: 3
